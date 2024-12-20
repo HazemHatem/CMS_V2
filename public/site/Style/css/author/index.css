@@ -1,0 +1,52 @@
+.fixed-div{
+    position: fixed;
+    left: 2rem;
+    bottom: 2rem;
+    background-color: gray;
+    height: 28rem;
+    width: 8rem;
+    display: flex
+;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .fixed-div:hover{
+    background-color: #a27f66;
+    height: 11rem;
+    width: 6rem;
+} */
+.click-1,
+.click-2{
+    width: 50px;
+    height: 50px;
+    display: flex
+;
+
+    background-color: #eee;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.click-1:hover {
+background-color: #d7cf62;
+width: 60px;
+height: 60px;
+}
+.click-2:hover {
+background-color: #d7cf62;
+width: 60px;
+height: 60px;
+}
+
+
+.click-2:hover  i{
+    color: white;
+}
+.click-1:hover  i{
+    color: white;
+}

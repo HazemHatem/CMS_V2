@@ -1,0 +1,118 @@
+.landing{
+    max-height: 300px;
+}
+
+.landing {
+    background-image: linear-gradient(135deg, rgba(30, 33, 33, 0.82) 1%, rgba(32, 32, 32, 0) 0),
+    url("../../image/categories/landing.jpg");
+    height: 45vh;
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+}
+
+.row-2s{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.recent .container .row .title2 {
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.recent .container .row .title2 p{
+    font-size: 12px;
+}
+
+
+.image-paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theImg img{
+width: 100%;
+}
+
+
+.author{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+
+.cont_author{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.authorImg{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.authorImg img{border-radius: 50%; width: 5rem;}
+
+.paragraph_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.paragraph_2 p{
+    font-size: 13px;
+    text-align: center;
+    overflow-x: overlay;
+}
+
+.title2 h1 , .title2 p{
+    font-size: clamp(0.75rem,2vw,2rem);
+}
+
+
+.authorImg h6,.paragraph_2 p{
+    font-size: clamp(0.75rem,2vw,15px);
+
+}
+
+.rate-article {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rate-article input {
+    display: none;
+}
+
+.rate-article label {
+    font-size: 32px;
+    color: lightgray;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.rate-article input:checked~label,
+.rate-article label:hover,
+.rate-article label:hover~label {
+    color: gold;
+}

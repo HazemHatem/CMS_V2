@@ -1,0 +1,81 @@
+.landing {
+    background-image: linear-gradient(135deg, rgba(30, 33, 33, 0.82) 1%, rgba(32, 32, 32, 0.14) 98%),
+    url("../../image/contact/land.jpg");
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    max-height: 300px;
+    padding-top: 184px;
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+}
+
+
+#submit {
+    color: black;
+    display: block;
+    margin: auto;
+}
+
+.row-2s{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    min-height: 30rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left{
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.left form{
+    min-height: inherit;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left form .form-groupe{
+    width: 100%;
+    min-height: inherit;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.top p{
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 22px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.button  i{
+    margin-right: 10px;
+}
